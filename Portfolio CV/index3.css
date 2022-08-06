@@ -1,0 +1,306 @@
+div.container{
+    color:white;
+}
+
+a.navbar-brand{
+    color: white;
+}
+a.nav-link{
+    color: white;
+}
+
+div.container{
+    color:black;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: black;   
+
+}
+.navbar{
+    position: fixed;
+    width:100%;
+}
+/* .footer{
+    border:2px solid none;
+  box-sizing:border-box ;
+  background: rgb(0,0,9);
+  background: linear-gradient(90deg, rgba(0,0,9,0.9373849506027128) 0%, rgba(5,3,0,0.974194766553633) 27%, rgba(1,1,26,1) 78%);
+color: blue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+align-content: center;
+text-align: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+height: 100px;
+} */
+
+footer{
+    border:2px solid none;
+  box-sizing:border-box ;
+  background: rgb(4,4,8);
+  background: linear-gradient(90deg, rgba(4,4,8,0.7144607843137255) 0%, rgba(8,8,10,1) 47%, rgba(118,115,112,1) 73%);
+  height:150px;
+  width: 100%;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+align-content: center;
+text-align: center;
+padding-top: 50px;
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center
+}
+
+.footer_text{
+
+    margin-top: 50px;
+
+}
+.home_footer{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.service_footer{
+    color: white;
+    margin-left: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.about_footer{
+    color: white;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.qualification_footer{
+    color: white;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.privacy_footer{
+    color: white;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* ###################################################################################################################3  */
+.main_text_contact_me{
+
+    font-size: 500px;
+    /* font-family: "Times New Roman", Times, serif;
+    font-family: "Brush Script MT", cursive; */
+    text-align: center;
+    
+   
+   
+}
+.contact_me_text{
+    text-align: left;
+    color:  rgb(203, 222, 240) ;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    font-family: Garamond, serif;;
+    font-size: xx-small;
+    
+}
+
+.contact_me{
+    font-family: Garamond, serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(back.jpg);
+}
+
+.forms{
+    width: 50%;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 30px;
+   
+}
+
+.name input{
+    width: 400px;
+    color: white;
+    height:50px ;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px solid white;
+
+}
+
+.email input{
+    width: 400px;
+    background-color:white;
+    height:50px ; 
+    color: white;
+     margin-bottom: 10px; background: transparent;
+     border: 1px solid white;
+}
+
+.subject input{
+    width: 400px;
+    background-color:white;
+    height:50px ;
+    color: white;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px solid white;
+}
+
+.message textarea{
+    width: 400px;
+    background-color:white;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+
+}
+
+.submit input{
+    align-items:center;
+  
+    width: 150px;
+    height: 50px;
+   
+    background: transparent;
+    border: 1px solid white;
+    background-color:white;
+    /* background-color: rgb(136, 5, 5); */
+}
+
+.information{
+    border: 2px solid white;
+    background-color:white;
+    width: 40%;
+    text-align: center;
+    font-family: Garamond, serif;
+    display: flex;
+    flex-direction: row;
+ 
+
+}
+
+
+.address h2{
+    font-size: 28px;
+    font-weight: lighter;
+    margin: 150px 20px 0px 60px;
+    font-family: sans-serif;
+}
+.address p{
+    margin: 17px 0px 10px 0px;
+}
+.mobile_number h2{
+    font-size: 28px;
+    font-weight: lighter;
+    margin: 150px 20px 0px 80px;
+    font-family: sans-serif;
+   
+}
+.mobile_number p{
+    margin: 10px 0px 0px 30px;
+}
+
+
+.email h2{
+    font-size: 28px;
+    font-weight: lighter;
+    margin: 150px 20px 0px 80px;
+    font-family: sans-serif;
+}
+.email p{
+    margin: 10px 0px 0px 40px;
+}
+
+
+
+@media (max-width:500px){
+
+    #nav{
+        display:block;
+        width:100%;
+        margin: 0px;
+        padding: 0px;
+      }
+      .container{
+      
+          display: block;
+          width: 100%;
+      }
+
+
+    .contact_me{
+        font-family: Garamond, serif;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-image: url(back.jpg);
+    }
+    
+    .forms{
+        width: 100%;
+    }
+    
+    .name input{
+        width: 350px;
+        background-color: white;
+    }
+    
+    .email input{
+        width: 350px;
+        background-color: white;
+    }
+    
+    .subject input{
+        width: 350px;
+        background-color: white;
+    }
+    
+    .message textarea{
+        width: 350px;
+        background-color: white;
+    }
+    
+    a.nav-link{
+        color: white;
+    }
+    .submit input{
+        align-items:center;
+        /* background-color: rgb(136, 5, 5); */
+    }
+    .information{
+        width: 100%;
+        color:white ;
+        text-align: center;
+        font-size: x-large;
+        font-family: Garamond, serif;
+    }
+    
+    .address h2{
+        font-size: 50px;
+        margin: 0;
+        margin-bottom: -45px;
+    }
+    .mobile_number h2{
+        font-size: 50px;
+        margin: 0;
+    }
+    
+    .email h2{
+        font-size: 50px;
+        margin: 0;
+    }
+ 
+    
+}
